@@ -425,6 +425,55 @@ header .navbar ul li a:hover{
     cursor: pointer;
     transform: scale(1.3);
   }
+
+  .close2 {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform .5s;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.3);
+  }
+
+  .close3 {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform .5s;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.3);
+  }
+
+  .close4 {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform .5s;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.3);
+  }
+
   
   .modal-header {
     padding: 2px 16px;
