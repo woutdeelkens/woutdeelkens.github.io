@@ -181,7 +181,7 @@ header .navbar ul li a:hover{
 #menu{
     position: fixed;
     top:2rem; right:2rem;
-    background:#333;
+    
     /* color:#fff; */
     color:black;
     cursor: pointer;
