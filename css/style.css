@@ -112,7 +112,7 @@ header{
     text-align: center;
 }
 
-header .user img{
+ header .user img{
     height:22rem;
     width:22rem;
     border-radius: 50%;
@@ -120,6 +120,15 @@ header .user img{
     margin-bottom: 1rem;
     border:.2rem solid var(--basiccolor);
 }
+
+/*  header .user img{
+    height:22rem;
+    width:22rem;
+    
+    object-fit: cover;
+    margin-bottom: 1rem;
+    
+}  */
 
 header .user .name{
     font-size: 3.5rem;
@@ -522,6 +531,20 @@ header .navbar ul li a:hover{
    body{
        padding:0;
    }
+   .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    font-size: 18px;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
 
 }
 
@@ -530,6 +553,21 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        font-size: 18px;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+      }
  
  }
 
@@ -558,5 +596,20 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
+
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        font-size: 18px;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+      }
 
  }
