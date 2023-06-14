@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 :root {
   /* --basiccolor:#f9ca24; */
@@ -7,7 +8,8 @@
 }
 
 * {
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Ubuntu", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -42,7 +44,7 @@ html::-webkit-scrollbar-thumb {
 
 body {
   /* background:#111; */
-  background: rgb(228, 228, 228);
+  background: rgb(235, 235, 235);
   overflow-x: hidden;
   padding-left: 35rem;
 }
@@ -197,26 +199,46 @@ header .navbar ul li a:hover {
   justify-content: center;
   flex-flow: column;
   padding: 0 15rem;
-}
-
-.home h3 {
-  font-size: 2.5rem;
-  /* color:#fff; */
-  color: black;
+  text-align: center;
+  position: relative;
 }
 
 .home h1 {
-  font-size: 5rem;
+  font-size: 14em;
   /* color:#fff; */
-  color: black;
+  color: var(--basiccolor);
+  -webkit-text-stroke: 1.5px black; /* width and color */
 }
 
-.home h1 span {
-  color: var(--basiccolor);
+.animate {
+  background-image: linear-gradient(
+    -225deg,
+    var(--basiccolor) 0%,
+    #00e6ac 29%,
+    #008060 67%,
+    #003326 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3.5s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .home p {
-  font-size: 2rem;
+  font-size: 4rem;
   /* color:#eee; */
   color: black;
   padding: 1rem 0;
@@ -340,7 +362,7 @@ header .navbar ul li a:hover {
 }
 
 .stage .row .info a {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--basiccolor);
   padding: 1rem 0;
   font-weight: normal;
@@ -349,6 +371,10 @@ header .navbar ul li a:hover {
 .docs {
   display: flex;
   justify-content: space-between;
+}
+
+.docs ul li {
+  list-style-type: none;
 }
 
 .grow {
@@ -414,6 +440,7 @@ header .navbar ul li a:hover {
   position: fixed; /* Stay in place */
   z-index: 1001; /* Sit on top */
   padding-top: 100px; /* Location of the box */
+  padding-bottom: 100px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -534,6 +561,13 @@ header .navbar ul li a:hover {
 
 .modal-body {
   padding: 2px 16px;
+}
+
+.modal-body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
 }
 
 .modal-footer {
