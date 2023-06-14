@@ -215,7 +215,7 @@ header .navbar ul li a:hover {
     -225deg,
     var(--basiccolor) 0%,
     #00e6ac 29%,
-    #008060 67%,
+    #148e6f 67%,
     #003326 100%
   );
   background-size: auto auto;
@@ -257,7 +257,7 @@ header .navbar ul li a:hover {
 }
 
 .about p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   /* color:#eee; */
   color: black;
   padding: 1rem 0;
@@ -284,7 +284,7 @@ header .navbar ul li a:hover {
   font-weight: normal;
 }
 .about .row .info p {
-  font-size: 14px;
+  font-size: 16px;
 
   font-weight: normal;
 }
@@ -357,7 +357,7 @@ header .navbar ul li a:hover {
 }
 
 .stage .row .info p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
 }
 
